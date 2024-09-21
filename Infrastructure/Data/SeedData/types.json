@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Rice"
+  },
+  {
+    "id": 2,
+    "name": "Pulses"
+  },
+  {
+    "id": 3,
+    "name": "Spices"
+  },
+  {
+    "id": 4,
+    "name": "Flours"
+  },
+  {
+    "id": 5,
+    "name": "Oils"
+  },
+  {
+    "id": 6,
+    "name": "Snacks"
+  },
+  {
+    "id": 7,
+    "name": "Dairy"
+  },
+  {
+    "id": 8,
+    "name": "Beverages"
+  },
+  {
+    "id": 9,
+    "name": "Fruits"
+  },
+  {
+    "id": 10,
+    "name": "Vegetables"
+  }
+]

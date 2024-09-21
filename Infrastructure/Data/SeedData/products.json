@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Fortune Basmati Rice",
+    "description": "Premium quality basmati rice.",
+    "price": 1200.00,
+    "pictureUrl": "https://m.media-amazon.com/images/I/71EcINn+c0L._AC_UF894,1000_QL80_.jpg",
+    "productTypeId": 1,
+    "productBrandId": 1
+  },
+  {
+    "id": 2,
+    "name": "MDH Chana Masala",
+    "description": "Spicy and flavorful chana masala.",
+    "price": 50.00,
+    "pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk-353cVW7fo3h_ZkXt8xJnSi6wW9W0pi31w&s",
+    "productTypeId": 3,
+    "productBrandId": 2
+  },
+  {
+    "id": 3,
+    "name": "Tata Salt",
+    "description": "Iodized salt for daily use.",
+    "price": 20.00,
+    "pictureUrl": "https://5.imimg.com/data5/SELLER/Default/2023/5/312120456/DU/KN/VS/143598153/tata-salt-iron-health.jpg",
+    "productTypeId": 3,
+    "productBrandId": 3
+  },
+  {
+    "id": 4,
+    "name": "Aashirvaad Atta",
+    "description": "Whole wheat flour for soft chapatis.",
+    "price": 300.00,
+    "pictureUrl": "https://m.media-amazon.com/images/I/91o0m2iIpVL._AC_UF1000,1000_QL80_.jpg",
+    "productTypeId": 4,
+    "productBrandId": 4
+  },
+  {
+    "id": 5,
+    "name": "Parle G Biscuits",
+    "description": "Classic glucose biscuits.",
+    "price": 40.00,
+    "pictureUrl": "https://5.imimg.com/data5/SELLER/Default/2022/2/NV/UB/EX/146503902/parle-parle-g-biscuit.jpg",
+    "productTypeId": 6,
+    "productBrandId": 5
+  },
+  {
+    "id": 6,
+    "name": "Amul Butter",
+    "description": "Creamy and delicious butter.",
+    "price": 50.00,
+    "pictureUrl": "https://5.imimg.com/data5/SELLER/Default/2022/3/FB/PJ/AE/1442638/104864-2-2-amul-butter-pasteurised.jpg",
+    "productTypeId": 7,
+    "productBrandId": 6
+  },
+  {
+    "id": 7,
+    "name": "Haldiram's Bhujia",
+    "description": "Crispy and spicy bhujia.",
+    "price": 100.00,
+    "pictureUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9368aNfPVeyQPygNd4Pwvq4i5vNhsYOsvSw&s",
+    "productTypeId": 6,
+    "productBrandId": 7
+  },
+  {
+    "id": 8,
+    "name": "Dabur Honey",
+    "description": "Pure and natural honey.",
+    "price": 200.00,
+    "pictureUrl": "https://dbigmart.com/wp-content/uploads/2021/07/71S60Lb2GwL._SL1500_-1.jpg",
+    "productTypeId": 8,
+    "productBrandId": 8
+  },
+  {
+    "id": 9,
+    "name": "Patanjali Ghee",
+    "description": "Pure cow ghee.",
+    "price": 500.00,
+    "pictureUrl": "https://m.media-amazon.com/images/I/81jADhVBaVL._AC_UF1000,1000_QL80_.jpg",
+    "productTypeId": 5,
+    "productBrandId": 9
+  },
+  {
+    "id": 10,
+    "name": "Britannia Cheese",
+    "description": "Delicious and creamy cheese slices.",
+    "price": 150.00,
+    "pictureUrl": "https://rukminim2.flixcart.com/image/850/1000/xif0q/cheese/o/k/w/-original-imagu23zjwcg7mrd.jpeg?q=90",
+    "productTypeId": 7,
+    "productBrandId": 10
+  }
+]
