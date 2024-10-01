@@ -1,6 +1,7 @@
-using Core.Entities;
+﻿using Core.Entities;
 
-namespace Core.Interface
+
+namespace Core.Interfaces
 {
     public interface IProductRepository
     {
@@ -8,7 +9,6 @@ namespace Core.Interface
         Task<IReadOnlyList<Product>> GetProductsAsync();
         Task<IReadOnlyList<ProductBrand>> GetProductBrandsAsync();
         Task<IReadOnlyList<ProductType>> GetProductTypeAsync();
-       
 
     }
 }

@@ -1,6 +1,6 @@
 ﻿
 using Core.Entities;
-using Core.Interface;
+using Core.Interfaces;
 
 using Microsoft.EntityFrameworkCore;
 

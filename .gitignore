@@ -6,3 +6,4 @@ appsettings.json
 API/Migrations/20240920152712_FirstMig.cs
 API/Migrations/20240920152712_FirstMig.Designer.cs
 API/Migrations/StoreContextModelSnapshot.cs
+.vscode
