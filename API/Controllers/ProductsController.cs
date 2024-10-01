@@ -27,23 +27,32 @@ namespace API.Controllers
             _mapper = mapper;
         }
 
+      
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<ProductToReturnDto>>> GetProduct() {
-            var spec = new ProductWithTypesAndBrandsSpec();
+        public async Task<ActionResult<IReadOnlyList<ProductToReturnDto>>> GetProduct(
+            [FromQuery] string? sort = null,
+            int? brandId=null ,
+            int? typeId=null)
+        {
+            var spec = string.IsNullOrEmpty(sort,brandId,typeId)
+                ? new ProductWithTypesAndBrandsSpec()
+                : new ProductWithTypesAndBrandsSpec(sort);
+
             var products = await _productsRepo.ListAsync(spec);
-            return Ok(_mapper
-                .Map<IReadOnlyList<Product>,IReadOnlyList<ProductToReturnDto>>(products));
+
+            return Ok(_mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDto>>(products));
             /*return products.Select(product => new ProductToReturnDto
-            {
-                Id = product.Id,
-                Name = product.Name,
-                Description = product.Description,
-                PictureUrl = product.PictureUrl,
-                Price = product.Price,
-                ProductBrand = product.ProductBrand.Name,
-                ProductType = product.ProductType.Name
-            }).ToList();*/
+          {
+              Id = product.Id,
+              Name = product.Name,
+              Description = product.Description,
+              PictureUrl = product.PictureUrl,
+              Price = product.Price,
+              ProductBrand = product.ProductBrand.Name,
+              ProductType = product.ProductType.Name
+          }).ToList();*/
         }
+
 
         [HttpGet("{id}")]
         public async Task<ActionResult<ProductToReturnDto>> GetProducts(int id) {

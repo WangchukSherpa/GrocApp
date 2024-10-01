@@ -18,6 +18,16 @@ namespace Infrastructure.Data
             if (spec.Condition != null) { 
             query= query.Where(spec.Condition);//p=>p.ProductTypeId=id
             }
+            if (spec.OrderBy != null)
+            {
+                query = query.OrderBy(spec.OrderBy);//p=>p.ProductTypeId=id
+            }
+            if (spec.OrderByDescending != null)
+            { 
+                query=query.OrderByDescending(spec.OrderByDescending);
+            }
+
+
             query = spec.Includes.Aggregate(query,(current,include)=>current.Include(include));
             return query;
         }
