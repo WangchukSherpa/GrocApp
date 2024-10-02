@@ -13,5 +13,8 @@ namespace Core.Specifications
         Expression<Func<T, bool>> Condition { get; }
         Expression<Func<T,object>> OrderBy { get; }
         Expression<Func<T, object>> OrderByDescending { get; }
+        int Take { get; }
+        int Count { get; }
+        bool IsPagingEnabled { get; }
     }
 }
